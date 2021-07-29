@@ -1,5 +1,0 @@
-package string.builder;
-
-public class Comment {
-	private String text;
-}
