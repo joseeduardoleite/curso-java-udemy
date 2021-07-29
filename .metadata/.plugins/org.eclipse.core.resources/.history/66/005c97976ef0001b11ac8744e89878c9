@@ -1,0 +1,7 @@
+package composicao2;
+
+public class Executar {
+	public static void exe() {
+		Post post = new Post("21/06/2018 13:05:44", "Traveling to New Zealand", "I'm going to visit this wonderful country!", 12);
+	}
+}

@@ -1,0 +1,15 @@
+package composicao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Executar {
+	public static void exe() {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter department's name: ");
+		String departmentName = sc.nextLine();
+		System.out.println("Enter worker data:");
+	}
+}

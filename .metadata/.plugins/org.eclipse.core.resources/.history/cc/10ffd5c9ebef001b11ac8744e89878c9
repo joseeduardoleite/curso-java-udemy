@@ -1,0 +1,10 @@
+package application;
+
+import composicao.Executar;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Executar.exe();
+	}
+}

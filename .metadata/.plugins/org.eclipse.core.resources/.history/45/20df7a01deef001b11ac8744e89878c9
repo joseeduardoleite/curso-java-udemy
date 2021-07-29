@@ -1,0 +1,7 @@
+package composicao;
+
+public class Executar {
+	public static void exe() {
+		
+	}
+}

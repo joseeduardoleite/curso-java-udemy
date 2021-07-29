@@ -1,0 +1,40 @@
+package composicao;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Executar {
+	public static void exe() {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		System.out.println("Enter department's name: ");
+		String departmentName = sc.nextLine();
+		System.out.println("Enter worker data:");
+		System.out.print("Name: ");
+		String workerName = sc.nextLine();
+		System.out.print("Level: ");
+		String workerLevel = sc.nextLine();
+		System.out.print("Base salary: ");
+		double baseSalary = sc.nextDouble();
+		
+		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName));
+		
+		System.out.print("How many contracts to this worker? ");
+		int contractsNumber = sc.nextInt();
+		
+		for (int i = 0; i < contractsNumber; i++) {
+			System.out.println("Enter contract # " + i + " data:");
+			System.out.print("Date (DD/MM/YYYY):");
+			Date contractDate = 
+		}
+		
+		
+		
+		System.out.print("Value per hour:");
+		System.out.print("Duration (hours):");
+	}
+}
