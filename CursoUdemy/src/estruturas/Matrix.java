@@ -1,4 +1,4 @@
-package entities;
+package estruturas;
 
 import java.util.Scanner;
 
