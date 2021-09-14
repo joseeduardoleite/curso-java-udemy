@@ -7,7 +7,7 @@ public abstract class Device {
 	public Device(String serialNumber) {
 		this.serialNumber = serialNumber;
 	}
-	
+
 	public String getSerialNumber() {
 		return serialNumber;
 	}
