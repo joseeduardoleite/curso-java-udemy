@@ -1,4 +1,4 @@
-package Demos;
+package demos;
 
 import java.util.Arrays;
 import java.util.Set;

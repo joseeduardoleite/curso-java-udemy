@@ -1,9 +1,9 @@
 package application;
 
-import Demos.Demo1;
-import Demos.Demo2;
-import Demos.DemoIgualdadeHashSet;
-import Demos.DemoIgualdadeTreeSet;
+import demos.Demo1;
+import demos.Demo2;
+import demos.DemoIgualdadeHashSet;
+import demos.DemoIgualdadeTreeSet;
 
 public class Program {
 
