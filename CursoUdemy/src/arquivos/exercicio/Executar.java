@@ -33,7 +33,7 @@ public class Executar {
 		File sourceFile = new File(sourceFileStr);
 		String sourceFolderStr = sourceFile.getParent();
 		
-		boolean success = new File(sourceFolderStr + "\\out").mkdir();
+		//boolean success = new File(sourceFolderStr + "\\out").mkdir();
 		
 		String targetFileStr = sourceFolderStr + "\\out\\summary.csv";
 		

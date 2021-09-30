@@ -172,6 +172,8 @@ public class EstruturaCondicional {
         else {
             System.out.println("Q4");
         }
+        
+        sc.close();
     }
 
     public static void Ex8()
